@@ -18,3 +18,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.github-link {
+  position: absolute;
+  z-index: 99999;
+  right: 45px;
+  top: 10px;
+  opacity: 0.3;
+  transition: all 0.5s ease;
+}
+
+.github-link:hover {
+  opacity: 1;
+}
+
+.github-link img {
+  width: 35px;
+}
