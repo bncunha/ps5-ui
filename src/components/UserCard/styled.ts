@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import PsButton from '../PsButton/PsButton';
 
 interface UserImageProps {
   type?: 'new' | 'guest' | 'user';
